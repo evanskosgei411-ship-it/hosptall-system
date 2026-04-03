@@ -1,0 +1,11 @@
+<h2>SHA Dashboard</h2>
+<p>Welcome to SHA Application System</p>
+
+<button onclick="logout()">Logout</button>
+
+<script>
+function logout(){
+  localStorage.removeItem("token");
+  window.location.href = "login.html";
+}
+</script>
